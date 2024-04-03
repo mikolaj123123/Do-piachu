@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    margin: 0;
+    padding: 0;
+    background-color: #efe4b0;
+    width: 1920px;
+    height: 1080px;
+}
+#logo1{
+    background-color: aqua; 
+    width: 10%; 
+    height: 150px;
+    float: left;
+}
+#nazwa{
+    background-color: #fdbb2d;
+    height: 150px;
+    width: 74%;
+    text-align: center;
+    float: left;
+}
+#nazwa a{
+    text-decoration: none;
+    color: black;
+}
+#nazwa a:hover{
+    color: white;
+}
+#multimedia{
+    background-color: darkred;
+    width: 16%;
+    height: 150px;
+    float: left;
+}
+#insta{
+    width:142.5px;
+    background-color: darkred;
+}
+#face{
+    width:142.5px;
+    background-color: darkred;
+}
+#formularz{
+    width: 30%;
+    height: 400px;
+    background-color: darkred;
+    color: white;
+    position: absolute;
+    left: 33%;
+    top: 25%;
+    text-align: center;
+    font-size: 30px;
+}
+input[type="text"],input[type="password"]{
+    border-radius: 20px;
+    width: 70%;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+input[type="text"]:hover,input[type="password"]:hover{
+    background-color: darkorange;
+    color: white;
+}
+input[type="submit"]{
+    border-radius: 30px;
+    width: 55%;
+    height: 50px;
+    background-color: darkorange;
+    color: white;
+    font-size: 30px;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+}

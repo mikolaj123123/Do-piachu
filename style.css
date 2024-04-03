@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    margin: 0;
+    padding: 0;
+    background-color: #efe4b0;
+    width: 1920px;
+    height: 1080px;
+}
+#logo1{
+    background-color: aqua; 
+    width: 10%; 
+    height: 150px;
+    float: left;
+}
+#nazwa{
+    background-color: #fdbb2d;
+    height: 150px;
+    width: 74%;
+    text-align: center;
+    float: left;
+}
+#nazwa a{
+    text-decoration: none;
+    color: black;
+}
+#nazwa a:hover{
+    color: white;
+}
+#multimedia{
+    background-color: darkred;
+    width: 16%;
+    height: 150px;
+    float: left;
+}
+#insta{
+    width:142.5px;
+    background-color: darkred;
+}
+#face{
+    width:142.5px;
+    background-color: darkred;
+}
+#opis{
+    width: 15%;
+    height: 600px;
+    background-color: darkred;
+    color: white;
+    float: left;
+}
+#informacje{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 32.5%;
+    top: 16.6%;
+    text-align: center;
+}
+#informacje_kontakt{
+    width: 16%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    float: right;
+}
+#mapa{
+    position: absolute;
+    left: 77.5%;
+    top: 48.1%; 
+}

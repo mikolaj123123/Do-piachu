@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="pogrzeb, trumna, usługa, zakład, kremacja, pochówek">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cena za usługi</title>
+    <link rel="stylesheet" href="styl2.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+    <header id="logo">
+        <img src="logo.png" id="logo1" alt="logo_firmy">
+    </header>
+    <header id="nazwa">
+        <h1>Zakład pogrzebowy „Do piachu”</h1>
+        <a href="index.html">Strona główna</a><br><br>
+        <a href="formularz.html">Formularz zgłoszeniowy</a>
+    </header>
+    <section id="multimedia">
+        <a href="https://www.instagram.com/"><img src="instagram.png" alt="instagram" id="insta"></a>
+        <a href="https://www.facebook.com/"><img src="facebook.png" alt="facebook" id="face"></a>
+    </section>
+    <table>
+        <tr>
+            <th>
+                USŁUGA
+            </th>
+            <th>
+                CENA
+            </th>
+            <th>
+                ZAZNACZ
+            </th>
+        </tr>
+        <tr>
+            <td>
+                POGRZEB
+            </td>
+            <td>
+                2000 zł
+            </td>
+            <td>
+                <input type="checkbox" name="pogrzeb" id="pogrzeb">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                TRUMNA
+            </td>
+            <td>
+                690 zł
+            </td>
+            <td>
+                <input type="checkbox" name="trumna" id="trumna">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                KREMACJA
+            </td>
+            <td>
+                4200 zł
+            </td>
+            <td>
+                <input type="checkbox" name="kremacja" id="kremacja">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                POCHÓWEK
+            </td>
+            <td>
+                2137 zł
+            </td>
+            <td>
+                <input type="checkbox" name="pochowek" id="pochowek">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Oblicz" onclick="oblicz()">
+            </td>
+            <td id="wynik">
+                
+            </td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

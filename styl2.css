@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#container{
+    margin: 0;
+    padding: 0;
+    background-color: #efe4b0;
+    width: 1920px;
+    height: 1080px;
+}
+#logo1{
+    background-color: aqua; 
+    width: 10%; 
+    height: 150px;
+    float: left;
+}
+#nazwa{
+    background-color: #fdbb2d;
+    height: 150px;
+    width: 74%;
+    text-align: center;
+    float: left;
+}
+#nazwa a{
+    text-decoration: none;
+    color: black;
+}
+#nazwa a:hover{
+    color: white;
+}
+#multimedia{
+    background-color: darkred;
+    width: 16%;
+    height: 150px;
+    float: left;
+}
+#insta{
+    width:142.5px;
+    background-color: darkred;
+}
+#face{
+    width:142.5px;
+    background-color: darkred;
+}
+table,th,td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    justify-content: center;
+}
+table{
+    margin: 0 auto;
+}
